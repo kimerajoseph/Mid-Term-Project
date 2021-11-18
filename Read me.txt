@@ -1,0 +1,24 @@
+IRON HACK DATA ANALYTICS BOOT CAMP MID-TERM PROJECT
+
+The projects attempts to prove the assumption that e-commerce websites' visitors who spend more than 20 minutes on the prodcuts
+pages are more likely to buy these products than those who spend less time. The project uses data from an unnamed e-commerce
+store. The project utilizes modern libraries and tools to clean, store, analyze and vizualizze the data
+
+Programming Languange
+- Python
+- MySQL
+
+Libraries
+- Pandas
+- Matplotlib
+- Seaborn
+
+Installations
+``` 
+        import pandas as pd
+        import Maplotlib.pyplot as plt
+        import seaborn as sns
+        import pymysql
+        from sqlalchemy import create_engine
+        import getpass 
+```
