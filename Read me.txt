@@ -1,24 +1,40 @@
-IRON HACK DATA ANALYTICS BOOT CAMP MID-TERM PROJECT
+IRON HACK DATA ANALYTICS BOOT CAMP: MID-TERM PROJECT
 
-The projects attempts to prove the assumption that e-commerce websites' visitors who spend more than 20 minutes on the prodcuts
-pages are more likely to buy these products than those who spend less time. The project uses data from an unnamed e-commerce
-store. The project utilizes modern libraries and tools to clean, store, analyze and vizualizze the data
+ThE project attempts to prove the assumption that e-commerce websites' visitors who spend more than 20 minutes on the prodcuts
+pages are more likely to buy those products than those who spend less time. The project uses data from an unnamed e-commerce
+store. The project utilizes modern libraries and tools to clean, store, analyze and visualize the data
 
-Programming Languange
+Programming Languanges
 - Python
 - MySQL
 
-Libraries
+Libraries/Modules
 - Pandas
 - Matplotlib
 - Seaborn
+- scipy
+- pymysql
 
-Installations
+Visualization Tools
+- Tableau
+
+Importing dependencies
 ``` 
         import pandas as pd
         import Maplotlib.pyplot as plt
         import seaborn as sns
+	import scipy.stats as st
         import pymysql
         from sqlalchemy import create_engine
         import getpass 
 ```
+The project uses Python because its one of the best languages in data analysis. It has a wide range of libraries and modules that are 
+great for data analysis and visualization
+Tableau is used to make presentations because of its beautful user interfaces and ease of interaction
+
+CLASSSIFICATION
+The project classsifies website visitors into Visitors and Cusomers
+Visitors - People that visited the site but never bought any item
+Customers - People/bots that visited the website and bought items
+
+The project tracks visitors and customers' behaviour like time spent on various pages, the month they visited, browser and operarting system used to access the site. We use data analysis tools to check for patterns and corellations in the data
